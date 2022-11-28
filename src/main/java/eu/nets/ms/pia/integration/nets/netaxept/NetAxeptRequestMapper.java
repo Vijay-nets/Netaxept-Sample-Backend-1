@@ -327,7 +327,9 @@ public class NetAxeptRequestMapper {
 		return createProcessResponse(response);
 	}
 
-
+	/**
+	* "return Process
+	*/
 	private static Process createProcessRequest(PaymentProcessRequest request, NetAxeptConfig cfg) {
 		Process processAuth = new Process();
 		ProcessRequest processRq = new ProcessRequest();
