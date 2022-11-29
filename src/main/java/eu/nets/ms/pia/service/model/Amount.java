@@ -112,6 +112,9 @@ public class Amount implements Serializable {
 		return true;
 	}
 
+	/**
+	* @return
+	*/
 
 
 	@JsonPOJOBuilder(buildMethodName = "build", withPrefix = "")
